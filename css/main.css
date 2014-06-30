@@ -1,0 +1,101 @@
+*:focus {
+    outline: none;
+}
+
+body {
+    font: 14px/21px"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    background: url("../img/bg.jpg") no-repeat;
+    text-decoration: none;
+}
+
+#list li {
+	list-style: none;
+    font: 14px/21px"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+#list button {
+    float: right;
+    position: relative;
+    top: -5px;
+    height: 20px;
+    border-radius: 5px none;
+    background: red;
+}
+
+.main {
+	width:300px;
+    margin:20px auto;
+    padding:20px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 0 5px rgba(0, 0, 0, .3);
+    border: 1px solid #6f212f;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.main h1 {
+	color: #222;
+    margin: 10px 0 20px 0;
+    padding: 0;
+    font-size: 24px;
+    text-align:center;
+}
+
+#submit {
+	background: green;
+	border: none;
+	color: white;
+	width: 50px;
+	height: 20px;
+	/*float: right;*/
+	border-radius: 5px;
+}
+
+#remove {
+    background: red;
+    border: none;
+    color: white;
+    width: 50px;
+    height: 20px;
+    float: right;
+    border-radius: 5px;
+}
+
+#type {
+	float:left;
+    margin-bottom:20px;
+}
+
+input[type=checkbox] {
+    vertical-align:middle;
+    margin: 0 5px;
+    float: left;
+}
+
+ul {
+	list-style-type:none;
+    list-style-position:outside;
+    margin:10px 0px;
+    padding:0px;
+    clear:both;
+}
+
+li {
+    background: #fff;
+    margin:5px 0px;
+    line-height:1.6;
+    padding:10px;
+    border:#222 solid 1px;
+}
+
+li:nth-child(odd) {
+    background: #ccc;
+}
+
+li a {
+    font-size:small;
+}
+
+#buy {
+	list-style: none;
+}
